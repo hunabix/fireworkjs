@@ -1,0 +1,6 @@
+/* Firework JS */
+.messages.overlay { position: fixed; top: 0; left: 30%; width: 30%; z-index: 1009; opacity: 0; text-align: center }
+.messages.overlay a { float: right; margin: -0 -10px 0 0; color: rgba(255, 255, 255, 0.7); border: 1px solid rgba(255, 255, 255, 0.5); padding: 0 5px; }
+.messages.overlay.success { background-color: #7cba0f; border-color: #7cba0f;  color: #fff  }
+.messages.overlay.danger { background-color: #C40600; border-color: #C40600; color: #fff  }
+.messages.overlay.default { background-color: #888; border-color: #888; color: #fff }
