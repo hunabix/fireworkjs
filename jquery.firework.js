@@ -15,16 +15,15 @@
         return false
       }
 
-      var c = 'messages overlay' // css class(es)
+      var c = 'firework' // css class(es)
         , p = 10 // pixels from top or page to display
         , d = new Date()
         , s = d.getTime() // used to create unique element ids
         , fid = "firework-"+ s; // firework id
 
-      if (typeof t != 'undefined')
-        c += ' '+ t; // add any user defined classes
+      if (typeof t !== 'undefined') c += ' '+ t; // add any user defined classes
 
-      $('.messages.overlay').each(function(){ // account for existing fireworks and move new one below
+      $('.firework').each(function(){ // account for existing fireworks and move new one below
         p += parseInt($(this).height()) + 30
       });
 
